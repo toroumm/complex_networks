@@ -23,10 +23,15 @@ def scrapy_all(baseurl,criterio):
 
 	except :
 
+		if 'http' not in baseurl:
+			baseurl = 'https://www.unifesp.br' + baseurl
+
+
 		me = get_index(baseurl)
 		mylink = baseurl
 		adj_list = []
-
+		global  lista_geral
+		lista_geral.append(baseurl)
 		global rede
 		rede.update({'node_' + str(me): {'me': me, 'adj_list': adj_list, 'mylink': mylink}})
 		return
@@ -48,24 +53,25 @@ def scrapy_all(baseurl,criterio):
 			lista_geral.append(link)
 
 			scrapy_all(link,criterio)
+
 	me = get_index(baseurl)
 	mylink = baseurl
 
 	global rede
 	rede.update({'node_'+str(me):{'me':me,'adj_list':adj_list,'mylink':mylink}})
 
-	if len(rede) > 20:
-		with open("dados_sjc2.pk1", "wb") as ar:
-			pickle.dump(rede, ar, pickle.HIGHEST_PROTOCOL)
+	#if len(rede) > 20:
+	#	with open("dados_sjc2.pk1", "wb") as ar:
+	#		pickle.dump(rede, ar, pickle.HIGHEST_PROTOCOL)
 
-	print baseurl, len(lista_geral)
+	print baseurl, len(lista_geral), len(rede)
 
 baseurl  ='https://www.unifesp.br'
 
 scrapy_all(baseurl,"campus/sjc")
 
 global rede
-with open("dados_sjc.pk1","wb") as ar:
+with open("dados_sjc_lenovo.pk1","wb") as ar:
 	pickle.dump(rede,ar,pickle.HIGHEST_PROTOCOL)
 
 	

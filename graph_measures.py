@@ -20,6 +20,20 @@ class GraphMetric:
 
 ############################################################################
 
+	def get_igraph_measures(self, graph):
+
+		measures = {}
+
+		measures.update({'degree':graph.degree()}) #grau do vertice
+		measures.update({'degree_avg':np.mean(np.asarray(graph.dregree()))}) #grau medio do grafo
+		measures.update({'edge_betweenness':graph.edge_betweenness()}) #quantos caminhos mais proximo de vertice a vertice passam por cada vertice
+		measures.update({'short_paths':graph.get_shortest_paths()}) # menor caminho vertice a vertice
+		measures.update({'clustering_coefficient':graph.transitivity_local_undirected()}) #coeficiente de aglomeracao, a probabilidade de meus vizinhos serem vizinhos entre eles
+		measures.update({'diameter':graph.get_diameter()})
+		measures.update({'density':graph.density()})
+
+		return measures
+
 	def get_measures(self, mat):
 
 		self.set_adj_mat(mat)
@@ -52,7 +66,7 @@ class GraphMetric:
 
 			_list.append(igraph.GraphBase.get_all_shortest_paths(g,i))
 
-		#igraph.plot(g, layout="rt", labels = True)
+		igraph.plot(g, layout="rt", labels = True)
 		
 		return _list 
 ############################################################################
@@ -154,6 +168,5 @@ gra.set_adj_mat(a)
 print gra.get_shortest_path()
 
 '''
-
 
 
