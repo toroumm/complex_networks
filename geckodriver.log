@@ -1,0 +1,72 @@
+1494954015661	geckodriver	INFO	Listening on 127.0.0.1:50514
+1494954016661	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.bIcgZmkki5LE
+1494954016662	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1494954016683	geckodriver::marionette	INFO	Connecting to Marionette on localhost:47692
+Gtk-Message: Failed to load module "canberra-gtk-module"
+JavaScript warning: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.aab6b9ecf3d4537052d5.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1494954078983	addons.productaddons	ERROR	Request failed certificate checks: [Exception... "SSL is required and URI scheme is not https."  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/CertUtils.jsm :: checkCert :: line 145"  data: no]
+1495007715174	geckodriver	INFO	Listening on 127.0.0.1:48827
+1495007716133	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.ZKg7ni7HNDCn
+1495007716134	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1495007716150	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49163
+Gtk-Message: Failed to load module "canberra-gtk-module"
+JavaScript warning: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.aab6b9ecf3d4537052d5.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1495007780095	addons.productaddons	ERROR	Request failed certificate checks: [Exception... "SSL is required and URI scheme is not https."  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/CertUtils.jsm :: checkCert :: line 145"  data: no]
+1495007801740	geckodriver	INFO	Listening on 127.0.0.1:34880
+1495007802741	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.tVgMWBbMvUXf
+1495007802741	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1495007802742	geckodriver::marionette	INFO	Connecting to Marionette on localhost:44444
+Gtk-Message: Failed to load module "canberra-gtk-module"
+JavaScript warning: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.aab6b9ecf3d4537052d5.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1495007865026	addons.productaddons	ERROR	Request failed certificate checks: [Exception... "SSL is required and URI scheme is not https."  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/CertUtils.jsm :: checkCert :: line 145"  data: no]
+1495007896163	geckodriver	INFO	Listening on 127.0.0.1:59944
+1495007897163	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.3U1nnaJ1BLgJ
+1495007897164	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1495007897165	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41534
+Gtk-Message: Failed to load module "canberra-gtk-module"
+JavaScript warning: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.aab6b9ecf3d4537052d5.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1495008119542	geckodriver	INFO	Listening on 127.0.0.1:58734
+1495008120542	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.673PWnaz8fJo
+1495008120543	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1495008120544	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38351
+Gtk-Message: Failed to load module "canberra-gtk-module"
+JavaScript warning: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.aab6b9ecf3d4537052d5.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1495008167870	geckodriver	INFO	Listening on 127.0.0.1:42102
+1495008168870	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.FzNdkui2gyjP
+1495008168870	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1495008168871	geckodriver::marionette	INFO	Connecting to Marionette on localhost:47678
+Gtk-Message: Failed to load module "canberra-gtk-module"
+JavaScript warning: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.aab6b9ecf3d4537052d5.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1495008231149	addons.productaddons	ERROR	Request failed certificate checks: [Exception... "SSL is required and URI scheme is not https."  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/CertUtils.jsm :: checkCert :: line 145"  data: no]
+1495008581857	geckodriver	INFO	Listening on 127.0.0.1:49981
+1495008582858	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Jptr6NhDpCsM
+1495008582858	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1495008582859	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57144
+Gtk-Message: Failed to load module "canberra-gtk-module"
+JavaScript warning: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.aab6b9ecf3d4537052d5.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1495008636335	geckodriver	INFO	Listening on 127.0.0.1:45883
+1495008637335	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.KVCXNp6GLDMP
+1495008637335	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1495008637336	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59976
+Gtk-Message: Failed to load module "canberra-gtk-module"
+1495008645100	addons.productaddons	ERROR	Request failed certificate checks: [Exception... "SSL is required and URI scheme is not https."  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/CertUtils.jsm :: checkCert :: line 145"  data: no]
+JavaScript warning: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.aab6b9ecf3d4537052d5.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1495008699556	addons.productaddons	ERROR	Request failed certificate checks: [Exception... "SSL is required and URI scheme is not https."  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/CertUtils.jsm :: checkCert :: line 145"  data: no]
+1495008757063	geckodriver	INFO	Listening on 127.0.0.1:55298
+1495008758063	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.yoyG0r2r22u0
+1495008758064	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1495008758065	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35880
+Gtk-Message: Failed to load module "canberra-gtk-module"
+JavaScript warning: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.aab6b9ecf3d4537052d5.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1495008820323	addons.productaddons	ERROR	Request failed certificate checks: [Exception... "SSL is required and URI scheme is not https."  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/CertUtils.jsm :: checkCert :: line 145"  data: no]
+1495008828767	geckodriver	INFO	Listening on 127.0.0.1:35884
+1495008829767	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.JWSGBbHxP8K1
+1495008829768	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1495008829769	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60666
+Gtk-Message: Failed to load module "canberra-gtk-module"
+JavaScript warning: https://normandy-cloudfront.cdn.mozilla.net/static/bundles/selfrepair.aab6b9ecf3d4537052d5.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1495008891926	addons.productaddons	ERROR	Request failed certificate checks: [Exception... "SSL is required and URI scheme is not https."  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/CertUtils.jsm :: checkCert :: line 145"  data: no]
+
+(firefox-esr:4881): Gtk-CRITICAL **: IA__gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+
+(firefox-esr:4881): Gtk-CRITICAL **: IA__gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
